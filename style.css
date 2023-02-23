@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+    margin: 0;
+    background: url('background.png');
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    padding-top: 20px;
+    height: 500px;
+}
+
+.heading {
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+span {
+    font-size: 30px;
+}
+
+.detect {
+    margin: 15px;
+}
+
+.webcam-view {
+    float: left;
+    font-size: 18px;
+}
+
+#camera {
+    height: 300px;
+    width: 300px;
+    border: 2px dashed black;
+    margin-bottom: 15px;
+}
+
+.predictions {
+    font-size: 17px;
+    margin-right: 300px;
+}
+
+.result-view {
+    float: right;
+    font-size: 18px;
+    margin-top: -53px;
+}
+
+#result {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed black;
+    margin-bottom: 15px;
+}
